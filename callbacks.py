@@ -37,3 +37,7 @@ def start(update: Update, context: CallbackContext) -> None:
 def send_orders(update: Update, context: CallbackContext) -> None:
     update.message.reply_text('Sizda hali birorta ham buyurtma yo`q')
 
+def send_about(update: Update, context: CallbackContext) -> None:
+    update.message.reply_text('shu yerda joylashganmiz')
+    update.message.reply_text('Email: abror4work@gmail.com')
+
